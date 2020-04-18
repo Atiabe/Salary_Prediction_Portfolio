@@ -1,8 +1,9 @@
  # Salary_Prediction_Portfolio
 
 The salary prediction is done by adopting the 4D concepts: 
-
 <br>__1)Define, 2)Discover, 3) Develop, and 4) Deploy__ 
+<br>![](https://github.com/Atiabe/Salary_Prediction_Portfolio/blob/master/Four%20Ds%20steps.png)
+<br> Figure 1: Four Ds  steps to solve data science problems (Source: DSDJ)
 
 ## PART 1 - Define the problem
 
