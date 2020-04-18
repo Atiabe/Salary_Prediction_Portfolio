@@ -48,6 +48,8 @@ The training dataset was splited into training (e.g: 70%) and testing (e.g: 30%)
 
 Gradient Boosting Regression:
 
+![](https://github.com/Atiabe/Salary_Prediction_Portfolio/blob/master/image3_Feature%20importance_with%20company.png)
+
 Features              Importance
 __________________________________
 jobType                0.452247
