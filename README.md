@@ -12,12 +12,13 @@ Three datasets have been used to train, test and adapt the salary prediction mod
         Pandas, numpy, matplotlib ,scikit-learn, seaborn, scipy
         
 ## PART 2 - Discover
+
 Panda library has been used to load the 'CSV' format of training and testing dataset as data frame , each data frame has 1 millon entryies.
 
-Once the training and testing datasets were loaded  the following data preparation activities were conducted:
-__•	Data exploration__ (checking missing values, duplicate entryies etc)
-__•	Data cleaning__ (clean and/or treat missed, duplicated informations, merging, spliting.....etc)
-__•	Classified categorical and numerical features__(statstical analysis and interpretation of categorical variables is difference from numerical variabels, it is important to catagorize the features prior to statstical analysis)  
+Once the training and testing datasets were loaded  the following data preparation activities were conducted:\n
+__•	Data exploration__ (checking missing values, duplicate entryies etc)\n
+__•	Data cleaning__ (clean and/or treat missed, duplicated informations, merging, spliting.....etc)\n
+__•	Classified categorical and numerical features__(statstical analysis and interpretation of categorical variables is difference from numerical variabels, it is important to catagorize the features prior to statstical analysis)\n  
 __•	Statistical analysis__ ( analyze how the dataset statsticaly respond, i.e distribution, variation, correlation...etc)
 __•	Visualization__ (figerative representation of the analysis to visualize each feature's distribution, effect of a feature on the salary and relation among features...etc)  
 __•	Outlier identification (IQR methods)__ (salary values below lower limit and above upper limit are considered as outliers)
