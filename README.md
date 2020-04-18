@@ -22,9 +22,9 @@ __•	Statistical analysis__ ( analyze how the dataset statsticaly respond, i.e 
 __•	Visualization__ (figerative representation of the analysis to visualize each feature's distribution, effect of a feature on the salary and relation among features...etc)  
 __•	Outlier identification (IQR methods)__ (salary values below lower limit and above upper limit are considered as outliers)
 
-![](https://github.com/Atiabe/Salary_Prediction_Portfolio/blob/master/image1_correlation.png)
+![](https://github.com/Atiabe/Salary_Prediction_Portfolio/blob/master/image1_correlation.png)/n
 Figure :  Features correlation analysis 
-![](https://github.com/Atiabe/Salary_Prediction_Portfolio/blob/master/image2_salary%20dist%20and%20outlier.png)
+![](https://github.com/Atiabe/Salary_Prediction_Portfolio/blob/master/image2_salary%20dist%20and%20outlier.png)/n
 Figure : Salary distribution plots to visualize pattern and distribution range (out of the lower and upper limit range)
 ## PART 3 - Develop
 
@@ -50,31 +50,17 @@ prior to train  any model, it is mandatory to preprocess the dataset through cle
  
 The training dataset was splited into training (e.g: 70%) and testing (e.g: 30%). The 70% portion of the training dataset was used to  train the model, while the remaining 30% was used to cross-validate (evaluate) the training model for better accuracy. 5-fold cross-validation splitting strategy was adopted.The prediction performance ( accuracy) of the trained model was evaluated using __Mean Square Error(MSE)__ metrics. It measures the error (disagreement) between the observed(actual) and predicted values. In this assignment the maximum MSE (threshold value) is given as 360 to evaluate our models performance. In comparison with other checked algorithms __Gradient boosting regression algorithm__ performs best interms of accuracy (MSE=359).  Feature importance analysis was conducted to identify which features have the most significantly impact and which one has least impact on the salart. The ‘feature_importances_’ anlysis result revealed that __Job Type__ has the greatest impact (about 45%) on salary and __company Id__ is the least (about 0.05%). 
 
-![](https://github.com/Atiabe/Salary_Prediction_Portfolio/blob/master/image3_Feature%20importance_with%20company.png)
+![](https://github.com/Atiabe/Salary_Prediction_Portfolio/blob/master/image3_Feature%20importance_with%20company.png)/n
 
-Features              Importance
-__________________________________
-jobType                0.452247
-yearsExperience        0.186611
-milesFromMetropolis    0.130221
-industry               0.117227
-major                  0.082275
-degree                 0.030921
-companyId              0.000497
+Figure: Feature mportance analysis result of all 7 features (JobType=45.22%, YearsExperience=18.66%, milesFromMetropolis=13.02%, industry=11.72%, major=8.23%, degree=3.09%, companyId=0.05%)
+
 
 The __Gradient boosting regression algorithm__ prediction accuracy was also trained and tested by excluding __company Id__ feature, since its impact is the least(about 0.05%). The result of the trained modelwith the absence of __company Id__ (using other 6 features) showed better performance with lower MSE’s  (MSE=358) than including __company Id__( MSE=359). Hence, I decideded to exclude the __company Id__ from importance features list and only enough to use the other 6 features('jobType', 'degree', 'major', 'industry',  'yearsExperience', and 'milesFromMetropolis') to predict the salary in the acceptable accuracy.  Minimizing  the number of features without compromising the model accuracy leads to simplify the model and  reduce computational speed. The feature importances anlysis result of the 6 features are shown as below:
+
 ![](https://github.com/Atiabe/Salary_Prediction_Portfolio/blob/master/image4_Feature%20importance_out%20company.png)
 
-Gradient Boosting Regression:
+Figure: Feature mportance analysis result of all 7 features (JobType=45.24%, YearsExperience=18.67%, milesFromMetropolis=13.03%, industry=11.73%, major=8.25%, degree=3.08%)
 
-Features              Importance
-__________________________________
-jobType                0.452419
-yearsExperience        0.186715
-milesFromMetropolis    0.130285
-industry               0.117267
-major                  0.082501
-degree                 0.030814
 
 
 
