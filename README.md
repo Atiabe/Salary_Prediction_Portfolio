@@ -1,4 +1,4 @@
- # <center> Salary_Prediction_Portfolio </center>
+ # Salary_Prediction_Portfolio
 
 The salary prediction is done by adopting the 4D concepts: 
 
@@ -23,9 +23,9 @@ Panda library has been used to load the 'CSV' format of training and testing dat
 <br> __•	Visualization__ (figerative representation of the analysis to visualize each feature's distribution, effect of a feature on the salary and relation among features...etc)  
 <br> __•	Outlier identification (IQR methods)__ (salary values below lower limit and above upper limit are considered as outliers)
 
-![](https://github.com/Atiabe/Salary_Prediction_Portfolio/blob/master/image1_correlation.png)/n
+![](https://github.com/Atiabe/Salary_Prediction_Portfolio/blob/master/image1_correlation.png)
 <br> Figure :  Features correlation analysis 
-![](https://github.com/Atiabe/Salary_Prediction_Portfolio/blob/master/image2_salary%20dist%20and%20outlier.png)/n
+![](https://github.com/Atiabe/Salary_Prediction_Portfolio/blob/master/image2_salary%20dist%20and%20outlier.png)
 <br> Figure : Salary distribution plots to visualize pattern and distribution range (out of the lower and upper limit range)
 
 ## PART 3 - Develop
