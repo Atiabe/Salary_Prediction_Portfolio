@@ -29,6 +29,9 @@ Panda library has been used to load the 'CSV' format of training and testing dat
 ![](https://github.com/Atiabe/Salary_Prediction_Portfolio/blob/master/image2_salary%20dist%20and%20outlier.png)
 <br> Figure 3 : Salary distribution plots to visualize pattern and distribution range (out of the lower and upper limit range)
 
+### Base line salary prediction
+<br> currently the companies predict the new employee's salary by taking the average salary of a specific job type in a different companies. The Mean Square Error (MSE) of the predictioiction from the actual paid salary is calculated as 964. Therefor our developed model need to reduce this MSE value to atleast 360.
+
 ## PART 3 - Develop
 
 Four potential regression algorithms are applied for this prediction problems ,named:  
